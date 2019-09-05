@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=functionsbier9cf7;AccountKey=2WDyMhz/sXwGQBCMulFBDdims7lUVAZRalyMk6U7ZmkvpjvwpWrVRuCvsUDjZVKdyEut5xiQfnRMw1pnxC0Aiw==;EndpointSuffix=core.windows.net",
+    "AzureWebJobsDashboard": "DefaultEndpointsProtocol=https;AccountName=functionsbier9cf7;AccountKey=2WDyMhz/sXwGQBCMulFBDdims7lUVAZRalyMk6U7ZmkvpjvwpWrVRuCvsUDjZVKdyEut5xiQfnRMw1pnxC0Aiw==;EndpointSuffix=core.windows.net",
+    "StorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=functionsbier9cf7;AccountKey=2WDyMhz/sXwGQBCMulFBDdims7lUVAZRalyMk6U7ZmkvpjvwpWrVRuCvsUDjZVKdyEut5xiQfnRMw1pnxC0Aiw==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "OpenWeatherKey": "97652670aeaea38d487691029c6ec8e4",
+    "AzureMapsKey": "RQgNHxNSRSrTkUnRIb5Tgka1rcvCLDWD7ijNJay3mNc"
+  }
+}
