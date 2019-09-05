@@ -1,0 +1,104 @@
+{
+	"info": {
+		"_postman_id": "4359f83d-894c-47c5-be67-7bd7ac0c7616",
+		"name": "BierRapportage-SalihKara",
+		"description": "Postman collection : BierRapportAPI \nSalih Kara\nServerSideProggamming 2019 Herkansing\n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetBierAdvies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://bierrapportagesalihkara.azurewebsites.net/api/IsItTimeForBeer?city=Amsterdam",
+					"protocol": "https",
+					"host": [
+						"bierrapportagesalihkara",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"IsItTimeForBeer"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Amsterdam"
+						}
+					]
+				},
+				"description": "Advies opvragen om te kijken of het tijd is om bier te drinken.\nHierbij wordt er gekeken of het niet te koud is om bier te drinken. Stad wordt meegevenen, vervolgens wordt de kaart en de temperatuur opgehaald. Navigeer vervolgens naar de meegegeven URL om de resultaten te downloaden "
+			},
+			"response": []
+		},
+		{
+			"name": "Get bietr advies voor stad Delft",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://bierrapportagesalihkara.azurewebsites.net/api/IsItTimeForBeer?city=Delft",
+					"protocol": "https",
+					"host": [
+						"bierrapportagesalihkara",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"IsItTimeForBeer"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Delft"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get bier advies voor stad Leiden",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://bierrapportagesalihkara.azurewebsites.net/api/IsItTimeForBeer?city=Leiden",
+					"protocol": "https",
+					"host": [
+						"bierrapportagesalihkara",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"IsItTimeForBeer"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Leiden"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

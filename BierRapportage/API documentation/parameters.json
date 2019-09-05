@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "accounts_AzureMaps_name": {
+            "value": null
+        },
+        "components_functionsbier_name": {
+            "value": null
+        },
+        "sites_BierRapportageSalihKara_name": {
+            "value": null
+        },
+        "storageAccounts_functionsbier9cf7_name": {
+            "value": null
+        },
+        "serverfarms_WestEuropePlan_externalid": {
+            "value": null
+        }
+    }
+}
